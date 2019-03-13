@@ -7,8 +7,8 @@
 [Tt]emp/
 [Oo]bj/
 
-[Pp]lugins/[Ee]ditor/[Jj]et[Bb]rains/
-[Pp]lugins/[Ee]ditor/[Jj]et[Bb]rains.meta
+[Aa]ssets/[Pp]lugins/[Ee]ditor/[Jj]et[Bb]rains*
+[Aa]ssets/[Pp]lugins/[Ee]ditor/[Jj]et[Bb]rains.meta
 
 # Never ignore Asset meta data
 ![Aa]ssets/**/*.meta
