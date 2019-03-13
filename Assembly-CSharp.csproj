@@ -75,10 +75,10 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\ScoreUpdater.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Spinner.cs" />
     <Compile Include="Assets\Scripts\Tools.cs" />
     <Compile Include="Assets\Scripts\WaveConfig.cs" />
     <Compile Include="Assets\Scripts\WaveSpawner.cs" />
-    <Compile Include="Assets\Spinner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

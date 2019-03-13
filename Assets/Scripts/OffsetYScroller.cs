@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class OffsetYScroller : MonoBehaviour {
-
     [SerializeField] private float speed = 0.2F;
     private Material _material;
     private Vector2 _offset;

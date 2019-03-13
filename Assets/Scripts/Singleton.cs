@@ -9,8 +9,7 @@ public abstract class Singleton : MonoBehaviour {
             instance = this;
             DontDestroyOnLoad(gameObject);
             Init();
-        }
-        else if (instance != this) {
+        } else if (instance != this) {
             Destroy(gameObject);
         }
     }

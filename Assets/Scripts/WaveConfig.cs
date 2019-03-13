@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName= "WaveConfig", menuName="Wave config")]
+[CreateAssetMenu(fileName = "WaveConfig", menuName = "Wave config")]
 public class WaveConfig : ScriptableObject {
     [SerializeField] private GameObject enemy;
     [SerializeField] private GameObject path;
@@ -12,7 +12,7 @@ public class WaveConfig : ScriptableObject {
     [SerializeField] private float moveSpeed = 2f;
 
     public GameObject Enemy => enemy;
-    
+
     public GameObject Path => path;
 
     public List<Transform> getWaypoints() {

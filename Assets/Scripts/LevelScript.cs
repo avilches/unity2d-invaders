@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelScript : MonoBehaviour
-{
+public class LevelScript : MonoBehaviour {
     // Start is called before the first frame update
     public void GoToMainMenu() {
         SceneManager.LoadScene("Main Menu");
     }
-    
+
     public void GoToGame() {
         GameManager.Instance.ResetScore();
         SceneManager.LoadScene("Game");
@@ -17,7 +16,6 @@ public class LevelScript : MonoBehaviour
 
     public void GoToGameOver() {
         StartCoroutine(Die());
-
     }
 
     private IEnumerator Die() {
@@ -28,5 +26,4 @@ public class LevelScript : MonoBehaviour
     public void Quit() {
         Application.Quit();
     }
-
 }

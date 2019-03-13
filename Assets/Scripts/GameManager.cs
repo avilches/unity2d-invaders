@@ -8,7 +8,7 @@ public class GameManager : Singleton {
     private AudioSource audioSource;
 
     private int score;
-    
+
     protected override void Init() {
         Debug.Log(SceneManager.GetActiveScene().name);
         audioSource = gameObject.GetComponent<AudioSource>();

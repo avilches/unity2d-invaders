@@ -49,7 +49,8 @@ public class Player : MonoBehaviour {
 
     IEnumerator FireTask() {
         while (true) {
-            var laser = Instantiate(laserPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+            var laser = Instantiate(laserPrefab,
+                new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             // laser.transform.position = ;
             Vector2 velocity = new Vector2(0, laserSpeed);
             laser.GetComponent<Rigidbody2D>().velocity = velocity;

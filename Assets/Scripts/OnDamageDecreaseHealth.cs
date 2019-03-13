@@ -4,7 +4,4 @@ using UnityEngine;
 
 public class OnDamageDecreaseHealth : MonoBehaviour {
     [SerializeField] private int health;
-
-
-    
 }
