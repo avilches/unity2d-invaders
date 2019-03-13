@@ -1,14 +1,12 @@
 .vs/
 .idea/
+Assets/Plugins/Editor/JetBrains*
 [Bb]uild/
 [Bb]uilds/
 [Ll]ibrary/
 [Ll]ogs/
 [Tt]emp/
 [Oo]bj/
-
-[Aa]ssets/[Pp]lugins/[Ee]ditor/[Jj]et[Bb]rains*
-[Aa]ssets/[Pp]lugins/[Ee]ditor/[Jj]et[Bb]rains.meta
 
 # Never ignore Asset meta data
 ![Aa]ssets/**/*.meta
