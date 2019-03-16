@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyShoot : MonoBehaviour {
@@ -47,6 +46,7 @@ public class EnemyShoot : MonoBehaviour {
                     var expl = Instantiate(explosion[i], transform.position, explosion[i].transform.rotation);
                     Destroy(expl, 1F);
                 }
+                Camera.main.GetComponent<CameraShake>().Shake(0.07f, 0.2f);
             }
         }
     }
