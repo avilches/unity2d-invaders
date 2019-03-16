@@ -6,12 +6,12 @@ public class EnemyShoot : MonoBehaviour {
     [SerializeField] private GameObject laserPrefab;
     [SerializeField] private int laserSpeed;
     [SerializeField] private int health;
-    [SerializeField] private float minSecondsShoot;
-    [SerializeField] private float maxSecondsShoot;
     [SerializeField] private List<GameObject> explosion;
     [SerializeField] private AudioClip deathSound;
     [SerializeField] [Range(0, 1)] private float deathVolume;
 
+    [SerializeField] private float minSecondsShoot;
+    [SerializeField] private float maxSecondsShoot;
     private float nextShootTime = 0;
 
     // Start is called before the first frame update
