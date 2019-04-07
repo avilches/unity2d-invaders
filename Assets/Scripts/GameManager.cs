@@ -21,8 +21,9 @@ public class GameManager : Singleton {
         score = 0;
     }
 
-    public void AddScore(int x) {
+    public int AddScore(int x) {
         score += x;
+        return score;
     }
 
     public static GameManager Instance => instance as GameManager;

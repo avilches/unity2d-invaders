@@ -18,7 +18,6 @@ public class Player : MonoBehaviour {
     Coroutine fire;
 
 
-    // Start is called before the first frame update
     void Start() {
         updateBoundaries();
         health = 1;
